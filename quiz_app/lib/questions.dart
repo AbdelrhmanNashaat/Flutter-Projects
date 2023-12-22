@@ -6,7 +6,7 @@ class Questions extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       width: double.infinity,
       child: Padding(
         padding: const EdgeInsets.symmetric(vertical: 60, horizontal: 16.0),
